@@ -1,0 +1,21 @@
+FIRST RUN:
+
+cd "YOUR_PROJECT_FOLDER"
+npm install
+npm run dev
+
+OPEN:
+http://localhost:5173
+
+ANDROID CONVERT:
+
+npm run build
+npx cap add android
+npx cap sync android
+npx cap open android
+
+IF YOU ALREADY HAVE ANDROID FOLDER:
+
+npm run build
+npx cap sync android
+npx cap open android
